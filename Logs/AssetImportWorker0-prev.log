@@ -15,7 +15,7 @@ D:/Unity/Stack Maker
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56209
+50690
 Successfully changed project path to: D:/Unity/Stack Maker
 D:/Unity/Stack Maker
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,16 +49,16 @@ D:/Unity/Stack Maker
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19460]  Target information:
+Player connection [17200]  Target information:
 
-Player connection [19460]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1194630301 [EditorId] 1194630301 [Version] 1048832 [Id] WindowsEditor(7,HoangAnhVu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [17200]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2003659968 [EditorId] 2003659968 [Version] 1048832 [Id] WindowsEditor(7,HoangAnhVu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19460]  * "[IP] 192.168.1.31 [Port] 0 [Flags] 2 [Guid] 1194630301 [EditorId] 1194630301 [Version] 1048832 [Id] WindowsEditor(7,HoangAnhVu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [17200]  * "[IP] 192.168.1.31 [Port] 0 [Flags] 2 [Guid] 2003659968 [EditorId] 2003659968 [Version] 1048832 [Id] WindowsEditor(7,HoangAnhVu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19460] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [19460] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17200] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17200] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 8.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.41f1 (0f988161febf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Resources/UnitySubsystems
@@ -74,49 +74,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013666 seconds.
-- Loaded All Assemblies, in  0.501 seconds
+Registered in 0.010580 seconds.
+- Loaded All Assemblies, in  0.345 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 243 ms
+Android Extension - Scanning For ADB Devices 261 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.798 seconds
-Domain Reload Profiling: 1297ms
-	BeginReloadAssembly (144ms)
+- Finished resetting the current domain, in  0.600 seconds
+Domain Reload Profiling: 944ms
+	BeginReloadAssembly (99ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (98ms)
-	LoadAllAssembliesAndSetupDomain (202ms)
-		LoadAssemblies (143ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (98ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (198ms)
-			TypeCache.Refresh (196ms)
-				TypeCache.ScanAssembly (179ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (140ms)
+				TypeCache.ScanAssembly (128ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (798ms)
+	FinalizeReload (601ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (730ms)
+		SetupLoadedEditorAssemblies (551ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (420ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (378ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (220ms)
-			ProcessInitializeOnLoadMethodAttributes (79ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (120ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -125,52 +125,52 @@ Domain Reload Profiling: 1297ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.840 seconds
+- Loaded All Assemblies, in  0.679 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.792 seconds
-Domain Reload Profiling: 1629ms
-	BeginReloadAssembly (202ms)
+- Finished resetting the current domain, in  0.770 seconds
+Domain Reload Profiling: 1447ms
+	BeginReloadAssembly (140ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (527ms)
-		LoadAssemblies (405ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (441ms)
+		LoadAssemblies (350ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (233ms)
-			TypeCache.Refresh (208ms)
-				TypeCache.ScanAssembly (187ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (792ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (132ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (770ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (616ms)
+		SetupLoadedEditorAssemblies (610ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
+			InitializePlatformSupportModulesInManaged (38ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (430ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (419ms)
 			ProcessInitializeOnLoadMethodAttributes (36ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3264 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (54.5 KB). Loaded Objects now: 3744.
-Memory consumption went from 131.6 MB to 131.5 MB.
-Total: 3.775700 ms (FindLiveObjects: 0.376700 ms CreateObjectMapping: 0.134800 ms MarkObjects: 3.149300 ms  DeleteObjects: 0.112300 ms)
+Unloading 23 unused Assets / (54.9 KB). Loaded Objects now: 3744.
+Memory consumption went from 131.6 MB to 131.6 MB.
+Total: 4.211100 ms (FindLiveObjects: 0.541900 ms CreateObjectMapping: 0.338000 ms MarkObjects: 3.191500 ms  DeleteObjects: 0.137500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -186,122 +186,139 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 794316.310684 seconds.
-  path: Assets/_Game/Prefabs/Level/Level2.prefab
-  artifactKey: Guid(403573e861370f846b14da2f97710594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/Prefabs/Level/Level2.prefab using Guid(403573e861370f846b14da2f97710594) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6aadd903500bcc09c46b8b6682456523') in 0.278688 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3040
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.439 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.022 seconds
+Domain Reload Profiling: 1460ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (223ms)
+		LoadAssemblies (285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1023ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (602ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (414ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3747.
+Memory consumption went from 126.9 MB to 126.9 MB.
+Total: 4.136400 ms (FindLiveObjects: 0.283700 ms CreateObjectMapping: 0.094900 ms MarkObjects: 3.603200 ms  DeleteObjects: 0.152700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 69.195299 seconds.
-  path: Assets/Tài liệu Bài 1 - StackMaker/_MazeMakerAssets/Resources/Prefab/win.prefab
-  artifactKey: Guid(ee26d09d0d6a554409b01b1c40753952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tài liệu Bài 1 - StackMaker/_MazeMakerAssets/Resources/Prefab/win.prefab using Guid(ee26d09d0d6a554409b01b1c40753952) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9e2cd54ca231ec1ee7e564dbf7bb3a0f') in 0.034850 seconds
+  Time since last request: 11993.638495 seconds.
+  path: Assets/_Game/Prefabs/Level/Level3.prefab
+  artifactKey: Guid(06c975079f8fe024db22ad09e23da34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Prefabs/Level/Level3.prefab using Guid(06c975079f8fe024db22ad09e23da34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0f7786ba97fab2321c7638f8ea567912') in 0.002367 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
+Number of asset objects unloaded after import = 0
 ========================================================================
-Received Import Request.
-  Time since last request: 5.178331 seconds.
-  path: Assets/Tài liệu Bài 1 - StackMaker/_MazeMakerAssets/Resources/Prefab/winpos.prefab
-  artifactKey: Guid(bec8fbf23e70b4f42b574dddd6681a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tài liệu Bài 1 - StackMaker/_MazeMakerAssets/Resources/Prefab/winpos.prefab using Guid(bec8fbf23e70b4f42b574dddd6681a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '5dc3bfec452ac67d910c31d700e296a6') in 0.298812 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 567
-========================================================================
-Received Import Request.
-  Time since last request: 0.061870 seconds.
-  path: Assets/Tài liệu Bài 1 - StackMaker/_MazeMakerAssets/Resources/Prefab/Yellow.prefab
-  artifactKey: Guid(d04d393ce76715f498cdd8615b8940a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tài liệu Bài 1 - StackMaker/_MazeMakerAssets/Resources/Prefab/Yellow.prefab using Guid(d04d393ce76715f498cdd8615b8940a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3b4a37e0e4499d1b14535f02ec97621e') in 0.014526 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 2.197529 seconds.
-  path: Assets/Tài liệu Bài 1 - StackMaker/_MazeMakerAssets/Resources/Prefab/Pivote_Wall.prefab
-  artifactKey: Guid(680fafd85c16f024192891099b1460ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tài liệu Bài 1 - StackMaker/_MazeMakerAssets/Resources/Prefab/Pivote_Wall.prefab using Guid(680fafd85c16f024192891099b1460ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b967ddf33529e1199ee3244d647e3cf5') in 0.017938 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.411285 seconds.
-  path: Assets/Tài liệu Bài 1 - StackMaker/_MazeMakerAssets/Resources/Prefab/Pivote_Unbrick.prefab
-  artifactKey: Guid(50c7535320f786d4286d60ca5630d31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tài liệu Bài 1 - StackMaker/_MazeMakerAssets/Resources/Prefab/Pivote_Unbrick.prefab using Guid(50c7535320f786d4286d60ca5630d31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '51467959ea20003140bc4fcce5424338') in 0.014600 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 1.810593 seconds.
-  path: Assets/Tài liệu Bài 1 - StackMaker/_MazeMakerAssets/Resources/Prefab/Chests_Open.prefab
-  artifactKey: Guid(34c349b1bc8f37e4da2db0df8818b8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tài liệu Bài 1 - StackMaker/_MazeMakerAssets/Resources/Prefab/Chests_Open.prefab using Guid(34c349b1bc8f37e4da2db0df8818b8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '58e336f38cd1a95f42dc3038e46cf07e') in 0.021988 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.612730 seconds.
-  path: Assets/Tài liệu Bài 1 - StackMaker/_MazeMakerAssets/Resources/Prefab/Chests_Close.prefab
-  artifactKey: Guid(f0caade99d139cd4f9a23b28acf8d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tài liệu Bài 1 - StackMaker/_MazeMakerAssets/Resources/Prefab/Chests_Close.prefab using Guid(f0caade99d139cd4f9a23b28acf8d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0a774a9b61ec48ea422db06582b0ee0e') in 0.040367 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.339501 seconds.
-  path: Assets/Tài liệu Bài 1 - StackMaker/_MazeMakerAssets/Resources/Prefab/Caro.prefab
-  artifactKey: Guid(295db39e1f72aa54580c0b7e0b02aadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tài liệu Bài 1 - StackMaker/_MazeMakerAssets/Resources/Prefab/Caro.prefab using Guid(295db39e1f72aa54580c0b7e0b02aadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'dfe1f5dd14788fc421b49544ebb6a6cf') in 0.016450 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 518.708364 seconds.
-  path: Assets/_Game/Prefabs/BrickPlayer.prefab
-  artifactKey: Guid(873ef6115eed59b45bd8fb28629ce099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/Prefabs/BrickPlayer.prefab using Guid(873ef6115eed59b45bd8fb28629ce099) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7e870ea57cc9720c53275f5d45fa3b2c') in 0.022140 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 11.486604 seconds.
-  path: Assets/Tài liệu Bài 1 - StackMaker/_MazeMakerAssets/Resources/Prefab/Pivote_Brick.prefab
-  artifactKey: Guid(f206ccc114e101b4dafffd4915d4a812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tài liệu Bài 1 - StackMaker/_MazeMakerAssets/Resources/Prefab/Pivote_Brick.prefab using Guid(f206ccc114e101b4dafffd4915d4a812) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4c8162c01cfea4aca8076e1bb1817d59') in 0.023447 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 7.389235 seconds.
-  path: Assets/Tài liệu Bài 1 - StackMaker/_MazeMakerAssets/Resources/Prefab/Pivot_Push.prefab
-  artifactKey: Guid(58bccaa9158f7ae4089c8a8ccd023a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tài liệu Bài 1 - StackMaker/_MazeMakerAssets/Resources/Prefab/Pivot_Push.prefab using Guid(58bccaa9158f7ae4089c8a8ccd023a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '36b6613fd796f963aa31e54128fe0d2e') in 0.037839 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.481 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.313 seconds
+Domain Reload Profiling: 1793ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (234ms)
+		LoadAssemblies (308ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1314ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (768ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (505ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 3.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3242 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.4 KB). Loaded Objects now: 3750.
+Memory consumption went from 126.7 MB to 126.7 MB.
+Total: 5.995600 ms (FindLiveObjects: 0.920200 ms CreateObjectMapping: 0.302800 ms MarkObjects: 4.710800 ms  DeleteObjects: 0.059400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

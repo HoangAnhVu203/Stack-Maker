@@ -931,7 +931,7 @@ MonoBehaviour:
   levels:
   - {fileID: 65984754035532124, guid: d5ab8bbacca7be44489aba3303fb40f0, type: 3}
   - {fileID: 65984754035532124, guid: 403573e861370f846b14da2f97710594, type: 3}
-  - {fileID: 65984754035532124, guid: 06c975079f8fe024db22ad09e23da34d, type: 3}
+  - {fileID: 65984754035532124, guid: d84d8ee85603098408deceab93e67638, type: 3}
   player: {fileID: 1779030462}
 --- !u!4 &889329008
 Transform:
@@ -1600,8 +1600,8 @@ Transform:
   m_GameObject: {fileID: 1310589184}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -376.9, z: 57.48}
-  m_LocalScale: {x: 19.86, y: 54.11, z: 1}
+  m_LocalPosition: {x: -681, y: -359, z: 271}
+  m_LocalScale: {x: 670.4592, y: 110.47215, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
